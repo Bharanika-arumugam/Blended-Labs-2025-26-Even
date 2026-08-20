@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: Bharanika.A.S
+* **Register Number**: 212224040048
+* **Date of Submission**: 20.08.2026
 
 ---
 
@@ -80,31 +80,16 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
-
+I opened the AWS Management Console and navigated to the EC2 Dashboard.
+I checked the existing EC2 instance and noted its Availability Zone.
+I opened Elastic Block Store (EBS) → Volumes and created a new EBS volume in the same Availability Zone as the EC2 instance.
+I selected a suitable volume type such as General Purpose SSD (gp3) and specified the required storage size.
+After creating the volume, I selected it and used Attach Volume to attach it to my running EC2 instance.
 ---
 
 ## Output Screenshots (Attach 3)
 
-### Screenshot 1: EBS Volume Created
-
-(Insert Screenshot Here)
-
----
-
-### Screenshot 2: EBS Volume Attached to EC2
-
-(Insert Screenshot Here)
-
----
-
-### Screenshot 3: Mounted Volume with Data
-
-(Insert Screenshot Here)
+<img width="1600" height="758" alt="image" src="https://github.com/user-attachments/assets/050e304d-9cbc-4b64-81c8-c862a10f25d2" />
 
 ---
 
